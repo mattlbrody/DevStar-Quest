@@ -86,8 +86,8 @@ function updateGame(title, content, choice1text, choice2text, choice1result, cho
     document.getElementById('choice2').onclick = choice2result;
     
     // play audio
-    var x = document.getElementById("myAudio");
-    x.play(); 
+    // var x = document.getElementById("myAudio");
+    // x.play(); 
 }
 
 function updateCharacter(name, health, damage, armor) {
